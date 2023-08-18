@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>var,let and const</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var a=10;
+		//document.write(a);
+		let b=20;
+		//let b=30;//wrong-->redeclaration is not possible
+		b=30;
+		//document.write(b);
+		{
+			let c=30;
+		}
+		//document.write(c); error occurs coz of c is block scope variable
+		const pi=3.14;
+		//document.write(pi); 
+		const atmno=12345678;
+		document.write(atmno);
+		// constant value cannot be changed error is occred if it is changed
+	</script>
+
+</body>
+</html>

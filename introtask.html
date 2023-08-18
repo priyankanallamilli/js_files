@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Java Script</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var name='Indhu'
+		name+=' pari'
+		name+=',saro'
+		document.write(name+"<br>");
+
+		var a;
+		a +='priya';
+		document.write(a+"</br>");
+
+		var b=true;
+		document.write(typeof(b)+"</br>");
+
+		var arr=['priya','indhu','saro']
+		document.write(typeof(arr)+"</br>")
+
+		var arr=['priya',1,true];
+		document.write(arr+"</br>");
+
+		var arr=['priya','indhu','bhumi'];
+		console.log(arr);
+		//document.write(arr);
+		document.write(arr[1]+"</br>");
+
+		var arr=['priya','indhu','bhumi','pavi','kavya'];
+		console.log(arr);
+		document.write(arr[2],arr[4]+"</br>");
+
+		var arr=['priya','indhu','bhumi','pavi','kavya'];
+		document.write(arr[0]);
+		document.write("  "+arr[1]+"</br>");
+
+		var obj={
+			'name':'hari'
+		}
+		console.log(obj.name);
+
+		var obj={
+			'name':'priya',
+			'rollno':'04M9',
+			'college':'AEC',
+			'branch':'ECE',
+		}
+		console.log(obj.name);
+		console.log(obj.branch);
+		console.log(obj.rollno);
+		document.write(obj+"</br>");
+
+		var obj=[{
+			'name':'priya',
+			'rollno':'04M9',
+			'college':'AEC',
+			'branch':'ECE',
+		},
+		{
+			'name':'bhumi',
+			'rollno':'04M8',
+			'college':'AEC',
+			'branch':'ECE',
+		},
+		{
+			'name':'pavi',
+			'rollno':'04P5',
+			'college':'AEC',
+			'branch':'ECE',
+		},
+		{
+			'name':'kavya',
+			'rollno':'04I1',
+			'college':'AEC',
+			'branch':'ECE',
+		},
+		{
+			'name':'indhu',
+			'rollno':'04J3',
+			'college':'AEC',
+			'branch':'ECE',
+		}]
+		console.log(obj)
+		for(let i=0; i<obj.length; i++){
+			document.write(obj[i].name,obj[i].rollno,obj[i].college,obj[i].branch+"</br>")
+		    console.log(obj[i].name,obj[i].rollno,obj[i].college,obj[i].branch,)
+		}
+	</script>
+</body>
+</html>
